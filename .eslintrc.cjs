@@ -17,5 +17,36 @@ module.exports = {
             { extensions: ['.js', '.jsx', 'ts', 'tsx'] },
         ],
         'react/react-in-jsx-scope': 'off',
+        'import/extensions': [
+            'error',
+            'ignorePackages',
+            {
+                js: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
+        ],
+        'jsx-a11y/label-has-associated-control': [
+            'error',
+            {
+                required: {
+                    some: ['nesting', 'id'],
+                },
+            },
+        ],
+        'jsx-a11y/label-has-for': [
+            'error',
+            {
+                required: {
+                    some: ['nesting', 'id'],
+                },
+            },
+        ],
+    },
+    settings: {
+        'import/resolver': {
+            typescript: {},
+        },
     },
 };
