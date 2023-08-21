@@ -9,6 +9,7 @@ module.exports = {
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+    ignorePatterns: ['node_modules/', 'dist/', 'build/', 'vite.config.ts'],
     plugins: ['react-refresh'],
     rules: {
         'react-refresh/only-export-components': 'warn',

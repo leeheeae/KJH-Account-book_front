@@ -11,11 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
     "@heroicons/react": "^2.0.18",
     "axios": "^1.4.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "jotai": "^2.3.1",
+    "jotai-devtools": "^0.6.2",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.197",
+    "@types/node": "^20.5.1",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
